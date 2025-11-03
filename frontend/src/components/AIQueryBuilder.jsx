@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Sparkles, Send, Loader, CheckCircle, AlertCircle, Table, BarChart3, Download, ChevronDown, ChevronUp, GripVertical, Shield } from 'lucide-react';
-import { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 
 export function AIQueryBuilder({ filters, onMinimize, isMinimized = false, dragHandleProps }) {

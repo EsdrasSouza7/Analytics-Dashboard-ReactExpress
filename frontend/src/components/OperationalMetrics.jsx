@@ -1,4 +1,3 @@
-// components/OperationalMetrics.jsx
 import { useState } from 'react';
 import { Clock, XCircle, TrendingUp, Utensils, GripVertical, ChevronUp, ChevronDown } from 'lucide-react';
 import { useFetchWithCache } from '../hooks/useFetchWithCache';

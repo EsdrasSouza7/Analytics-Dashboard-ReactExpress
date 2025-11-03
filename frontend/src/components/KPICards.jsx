@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { DollarSign, ShoppingBag, TrendingUp, Users, Clock, Percent } from 'lucide-react';
 import { useFetchWithCache } from '../hooks/useFetchWithCache';
 import { KPICardsSkeleton } from './LoadingSpinner';

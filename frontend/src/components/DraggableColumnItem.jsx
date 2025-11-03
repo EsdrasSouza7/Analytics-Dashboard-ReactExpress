@@ -1,5 +1,3 @@
-import React from 'react';
-
 export function DraggableColumnItem({ componentId, fromColumn, onMove, children }) {
   const handleDragStart = (e) => {
     e.dataTransfer.setData('application/json', JSON.stringify({

@@ -1,8 +1,7 @@
 
 import { useState } from 'react';
-import { Users, TrendingUp, Star, RefreshCw, Clock, DollarSign, ShoppingBag, GripVertical, ChevronUp, ChevronDown, AlertTriangle,  CreditCard, Wallet, Globe  } from 'lucide-react';
+import { Users, TrendingUp, RefreshCw, DollarSign, GripVertical, ChevronUp, ChevronDown, AlertTriangle,  CreditCard, Wallet, Globe  } from 'lucide-react';
 import { useFetchWithCache } from '../hooks/useFetchWithCache';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 
 
 export function CustomerAnalytics({ filters, onMinimize, isMinimized = false, dragHandleProps }) {

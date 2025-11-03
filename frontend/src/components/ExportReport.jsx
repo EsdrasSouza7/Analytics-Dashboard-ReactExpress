@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Download, FileText, FileSpreadsheet, File, Loader, CheckCircle, X } from 'lucide-react';
+import { Download, FileText, FileSpreadsheet, Loader, CheckCircle, X } from 'lucide-react';
 
 export function ExportReport({ filters, onClose }) {
   const [exporting, setExporting] = useState(false);

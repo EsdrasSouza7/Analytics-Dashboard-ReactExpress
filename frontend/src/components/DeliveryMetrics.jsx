@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { Truck, MapPin, Clock, TrendingUp, ChevronDown, ChevronUp, GripVertical, Star } from 'lucide-react';
 import { useFetchWithCache } from '../hooks/useFetchWithCache';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, ScatterChart, Scatter, ZAxis } from 'recharts';
-import { useEffect } from 'react';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line } from 'recharts';
 
 export function DeliveryMetrics({ filters, isMinimized, onMinimize, dragHandleProps }) {
   const [activeTab, setActiveTab] = useState('overview');
